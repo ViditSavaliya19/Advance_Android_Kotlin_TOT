@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.ChatFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <org.imaginativeworld.whynotimagecarousel.ImageCarousel
+        android:layout_width="wrap_content"
+        android:layout_height="256dp"
+        app:autoPlay="true"
+        android:id="@+id/carousel"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        style="@style/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat Fragment" />
+
+    <TextView
+        android:layout_margin="10dp"
+        android:textSize="18dp"
+        style="@style/subTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SubTitle" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnChat"
+        android:text="Chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:layout_gravity="center"
+        android:id="@+id/switchTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
